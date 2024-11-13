@@ -2,16 +2,6 @@
 
 This repository contains projects that demonstrate web scraping and data manipulation using Python. Each project is designed to highlight specific scraping techniques, data processing, and file handling.
 
-## Table of Contents
-- [Projects](#projects)
-  - [bs4](#bs4)
-  - [100 Movies to Watch](#100-movies-to-watch)
-- [Requirements](#requirements)
-- [Usage](#usage)
-- [License](#license)
-
----
-
 ## Projects
 
 ### 1. bs4
