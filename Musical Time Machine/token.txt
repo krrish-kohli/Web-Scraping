@@ -1,0 +1,2 @@
+"You will get this after getting Authenticated ny Spotipy using Authorization Code Flow"
+{"access_token": "your_own_access_token", "token_type": "Bearer", "expires_in": 3600, "refresh_token": "your_own_refresh_token", "scope": "playlist-modify-public", "expires_at": 1731559224}
