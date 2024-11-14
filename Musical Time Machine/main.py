@@ -13,7 +13,7 @@ header = {
 
 scope = "playlist-modify-public"
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope, client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET, redirect_uri="https://example.com/", cache_path="token.txt", username="krrish kohli"))
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope, client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET, redirect_uri="https://example.com/", cache_path="token.txt", username="YOUR_USERNAME"))
 
 user_id = sp.current_user()["id"]
 
