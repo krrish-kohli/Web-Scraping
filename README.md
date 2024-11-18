@@ -1,20 +1,24 @@
 # Web Scraping
 
-This repository contains projects that demonstrate web scraping and data manipulation using Python. Each project is designed to highlight specific scraping techniques, data processing, and file handling.
+This repository contains projects showcasing different aspects of web scraping using Python. Each project focuses on practical examples of data extraction, manipulation, and filtering, demonstrating essential skills for working with structured data from web pages. Projects include scraping top movie lists, educational web pages, generating music playlists from historical Billboard Hot 100 charts using the Spotify API, and tracking product prices on Amazon.
+
+---
 
 ## Projects
 
 ### 1. bs4
-A web scraping project that uses the Beautiful Soup (`bs4`) library to extract information from articles and identify the article with the highest upvotes. This project demonstrates parsing HTML elements, accessing data, and filtering based on criteria.
+This project demonstrates basic web scraping from a static HTML file using BeautifulSoup. It extracts key information such as the name, profession, and links from a mock personal webpage.
 
 #### Project Details:
-- **Scraping Target**: Articles on a sample website
-- **Data Extracted**:
-  - Article titles and content
-  - Upvote counts for each article
-  - The article with the highest upvotes
-- **File(s)**: 
-  - `main.py` - The script containing the scraping logic
+- **Data Source**: Static HTML file (`website.html`)
+- **Features**:
+  - Parse HTML to extract key data points
+  - Display structured information in the console
+- **File(s)**:
+  - `main.py` - The script for parsing `website.html`
+  - `website.html` - The source file containing data to scrape
+
+---
 
 ### 2. 100 Movies to Watch
 This project scrapes a webpage to generate a list of the top 100 recommended movies to watch. The URL of the page to scrape is provided in the file, and the project uses Beautiful Soup to extract each movie title, allowing further processing and management of the list.
@@ -31,18 +35,33 @@ This project scrapes a webpage to generate a list of the top 100 recommended mov
   - `main.py` - The main script for scraping and processing the movie list
   - `movies.txt` - Contains the URL of the page to scrape
 
-## 3. Musical Time Machine
-The **Musical Time Machine** project scrapes data from the Billboard Hot 100 and uses the Spotify API to create a playlist of the top 100 songs from a specified date in history. Users can input a date, and the program will retrieve the Billboard Hot 100 songs from that time, compiling them into a Spotify playlist to recreate the music experience of that era.
+---
+
+### 3. Musical Time Machine
+This project scrapes the Billboard Hot 100 to generate a playlist of the top 100 songs from a specified date in history. It uses BeautifulSoup to retrieve song titles from Billboard and the Spotify API to create a playlist with these songs, allowing users to experience popular music from any chosen date.
 
 #### Project Details:
 - **Data Source**: Billboard Hot 100 (scraped) and Spotify API
 - **Features**:
   - Scrape the Billboard Hot 100 for top songs from a specific date
-  - Connects to the Spotify API using an OAuth token for playlist creation and modification.
-  - Compiles the top 100 songs into a Spotify playlist.
-- **Note**: The `token.txt` file contains authentication details needed for Spotify API access. Set up your own Spotify Developer account and obtain access tokens to use this project.
-
+  - Use Spotify API to create and save a playlist with these songs
+  - Adds the playlist to the user's Spotify account (only if the user provides his Spotify username)
+- **File(s)**:
+  - `main.py` - The main script for scraping Billboard and interacting with Spotify API
+  - `token.txt` - Contains authentication details for Spotify API access
 
 ---
 
-This repository contains projects showcasing different aspects of web scraping and API interaction using Python. Each project focuses on practical examples of data extraction, manipulation, filtering, and API integration, demonstrating essential skills for working with structured data from web pages and external APIs.
+### 4. Amazon Price Tracker
+This project tracks the price of a specific product on Amazon and notifies the user when the price drops below a certain threshold. It demonstrates how to scrape dynamic content and handle headers to avoid detection by web servers.
+
+#### Project Details:
+- **Data Source**: Amazon product page
+- **Features**:
+  - Scrape the current price of a product from Amazon
+  - Compare the price against a user-defined threshold
+  - Send an email when the price drops below the threshold
+- **File(s)**:
+  - `main.py` - The main script for tracking and comparing prices
+
+---
