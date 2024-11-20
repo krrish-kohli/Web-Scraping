@@ -1,6 +1,6 @@
 # Web Scraping
 
-This repository contains projects showcasing different aspects of web scraping using Python. Each project focuses on practical examples of data extraction, manipulation, filtering, and automation, demonstrating essential skills for working with structured data from web pages. Projects include scraping top movie lists, educational web pages, generating music playlists from historical Billboard Hot 100 charts using the Spotipy API, tracking product prices on Amazon, and automating gameplay using Selenium.
+This repository contains projects showcasing different aspects of web scraping and automation using Python. Each project focuses on practical examples of data extraction, manipulation, filtering, and automation, demonstrating essential skills for working with structured data from web pages. Projects include scraping top movie lists, educational web pages, generating music playlists from historical Billboard Hot 100 charts, tracking product prices on Amazon, automating gameplay, and even automating interactions on Tinder.
 
 ---
 
