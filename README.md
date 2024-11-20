@@ -1,6 +1,6 @@
 # Web Scraping
 
-This repository contains projects showcasing different aspects of web scraping using Python. Each project focuses on practical examples of data extraction, manipulation, filtering, and automation, demonstrating essential skills for working with structured data from web pages. Projects include scraping top movie lists, educational web pages, generating music playlists from historical Billboard Hot 100 charts using the Spotify API, tracking product prices on Amazon, and automating gameplay using Selenium.
+This repository contains projects showcasing different aspects of web scraping using Python. Each project focuses on practical examples of data extraction, manipulation, filtering, and automation, demonstrating essential skills for working with structured data from web pages. Projects include scraping top movie lists, educational web pages, generating music playlists from historical Billboard Hot 100 charts using the Spotipy API, tracking product prices on Amazon, and automating gameplay using Selenium.
 
 ---
 
@@ -87,5 +87,22 @@ This project automates gameplay for the **Cookie Clicker** game using **Selenium
   - **Selenium WebDriver**: For browser automation and interaction with dynamic game elements
 - **File(s)**:
   - `main.py` - The main script for automating gameplay
+
+---
+
+### 6. Automated Tinder Swiping Bot
+This project automates swiping on **Tinder** using **Selenium**. The bot logs into Tinder using Facebook authentication, manages pop-ups, and performs automated right swipes upto Tinder's daily limit. It demonstrates advanced browser automation techniques for handling dynamic elements and managing user sessions.
+
+#### Project Details:
+- **Platform**: [Tinder](https://tinder.com/)
+- **Features**:
+  - Automates the login process via Facebook (requires manual syncing due to dynamic attributes)
+  - Handles location, notification, and cookie pop-ups automatically
+  - Performs automated right swipes for 100 profiles (Tinder's daily limit without subscription)
+  - Detects and dismisses match pop-ups for seamless swiping
+- **Tools Used**:
+  - **Selenium WebDriver**: For browser automation and interaction with Tinder
+- **File(s)**:
+  - `main.py` - The main script for automating Tinder login and swiping
 
 ---
