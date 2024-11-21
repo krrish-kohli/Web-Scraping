@@ -1,6 +1,6 @@
 # Web Scraping
 
-This repository contains projects showcasing different aspects of web scraping and automation using Python. Each project focuses on practical examples of data extraction, manipulation, filtering, and automation, demonstrating essential skills for working with structured data from web pages. Projects include scraping top movie lists, educational web pages, generating music playlists from historical Billboard Hot 100 charts, tracking product prices on Amazon, automating gameplay, and even automating interactions on Tinder.
+This repository contains projects showcasing different aspects of web scraping and automation using Python. Each project focuses on practical examples of data extraction, manipulation, filtering, and automation, demonstrating essential skills for working with structured data from web pages. Projects include scraping top movie lists, educational web pages, generating music playlists from historical Billboard Hot 100 charts, tracking product prices on Amazon, automating gameplay, automating interactions on Tinder, and automating internet speed complaint tweets.
 
 ---
 
@@ -104,5 +104,21 @@ This project automates swiping on **Tinder** using **Selenium**. The bot logs in
   - **Selenium WebDriver**: For browser automation and interaction with Tinder
 - **File(s)**:
   - `main.py` - The main script for automating Tinder login and swiping
+
+---
+
+### 7. Internet Speed Twitter Complaint Bot
+This project automates checking internet speed and posting a complaint on Twitter (X) if the speed is below the promised threshold. It uses **Selenium** for browser automation, navigating to Speedtest.net to check speeds and logging into Twitter to post a tweet.
+
+#### Project Details:
+- **Platforms**: [Speedtest.net](https://www.speedtest.net/) and [Twitter (X)](https://www.x.com/)
+- **Features**:
+  - Measures download and upload speeds using Speedtest.net
+  - Compares actual speeds with user-defined promised speeds
+  - Automatically logs into Twitter and posts a complaint tweet if the speeds are below expectations
+- **Tools Used**:
+  - **Selenium WebDriver**: For browser automation and interaction with Speedtest.net and Twitter
+- **File(s)**:
+  - `main.py` - The main script for checking internet speed and posting complaints on Twitter
 
 ---
