@@ -16,7 +16,7 @@ chrome_options.add_experimental_option("detach", True)
 # Create and configure the Chrome webdriver
 driver = webdriver.Chrome(options=chrome_options)
 
-# Navigate to Wikipedia
+# Navigate to Tinder
 driver.get("https://tinder.com/")
 
 # Specifying the window handles
