@@ -1,6 +1,6 @@
 # Web Scraping
 
-This repository contains projects showcasing different aspects of web scraping and automation using Python. Each project focuses on practical examples of data extraction, manipulation, filtering, and automation, demonstrating essential skills for working with structured data from web pages. Projects include scraping top movie lists, educational web pages, generating music playlists from historical Billboard Hot 100 charts, tracking product prices on Amazon, automating gameplay, automating interactions on Tinder, and automating internet speed complaint tweets.
+This repository contains projects showcasing different aspects of web scraping and automation using Python. Each project focuses on practical examples of data extraction, manipulation, filtering, and automation, demonstrating essential skills for working with structured data from web pages. Projects include scraping top movie lists, educational web pages, generating music playlists from historical Billboard Hot 100 charts, tracking product prices on Amazon, automating gameplay, automating interactions on Tinder, automating internet speed complaint tweets, and automating Instagram interactions.
 
 ---
 
@@ -120,5 +120,22 @@ This project automates checking internet speed and posting a complaint on Twitte
   - **Selenium WebDriver**: For browser automation and interaction with Speedtest.net and Twitter
 - **File(s)**:
   - `main.py` - The main script for checking internet speed and posting complaints on Twitter
+
+---
+
+### 8. Instagram Follower Bot
+This project automates following all accounts in a target account's followers list on **Instagram**. The bot logs into Instagram, navigates to a target account's followers list, and automates following every user from that list. It demonstrates browser automation techniques for handling dynamic elements and managing user interactions.
+
+#### Project Details:
+- **Platform**: [Instagram](https://www.instagram.com/)
+- **Features**:
+  - Automates Instagram login using environment variables for credentials
+  - Navigates to a target account's followers list
+  - Scrolls through the followers modal and automates following all users
+  - Handles pop-ups for already-followed accounts gracefully
+- **Tools Used**:
+  - **Selenium WebDriver**: For browser automation and interaction with Instagram
+- **File(s)**:
+  - `main.py` - The main script for automating Instagram interactions
 
 ---
