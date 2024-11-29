@@ -1,6 +1,6 @@
 # Web Scraping
 
-This repository contains projects showcasing different aspects of web scraping and automation using Python. Each project focuses on practical examples of data extraction, manipulation, filtering, and automation, demonstrating essential skills for working with structured data from web pages. Projects include scraping top movie lists, educational web pages, generating music playlists from historical Billboard Hot 100 charts, tracking product prices on Amazon, automating gameplay, automating interactions on Tinder, automating internet speed complaint tweets, and automating Instagram interactions.
+This repository contains projects showcasing different aspects of web scraping and automation using Python. Each project focuses on practical examples of data extraction, manipulation, filtering, and automation, demonstrating essential skills for working with structured data from web pages. Projects include scraping top movie lists, educational web pages, generating music playlists from historical Billboard Hot 100 charts, tracking product prices on Amazon, automating gameplay, automating interactions on Tinder, automating internet speed complaint tweets, automating Instagram interactions, and gathering rental property data to submit into Google Forms for job automation example.
 
 ---
 
@@ -137,5 +137,23 @@ This project automates following all accounts in a target account's followers li
   - **Selenium WebDriver**: For browser automation and interaction with Instagram
 - **File(s)**:
   - `main.py` - The main script for automating Instagram interactions
+
+---
+
+### 9. SF Renting
+This project automates scraping rental property data from Zillow and submitting it to a Google Form. It combines **BeautifulSoup** for data extraction and **Selenium** for automation to gather and organize information about rental properties in San Francisco.
+
+#### Project Details:
+- **Data Source**: [Zillow Clone](https://appbrewery.github.io/Zillow-Clone/) for scraping rental property data
+- **Google Form**: [Form Link](https://forms.gle/5xJHfDvCL5ZCwyCG7) for submitting the data
+- **Features**:
+  - Scrapes property addresses, prices, and links from Zillow using BeautifulSoup
+  - Automates inputting scraped data into a Google Form using Selenium
+  - Loops through multiple properties to collect and submit data efficiently
+- **Tools Used**:
+  - **BeautifulSoup**: For web scraping rental property data
+  - **Selenium WebDriver**: For automating the data submission process
+- **File(s)**:
+  - `main.py` - The main script for scraping and automating data submission
 
 ---
