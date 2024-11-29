@@ -144,7 +144,7 @@ This project automates following all accounts in a target account's followers li
 This project automates scraping rental property data from Zillow and submitting it to a Google Form. It combines **BeautifulSoup** for data extraction and **Selenium** for automation to gather and organize information about rental properties in San Francisco.
 
 #### Project Details:
-- **Data Source**: [Zillow Clone](https://appbrewery.github.io/Zillow-Clone/) for scraping rental property data
+- **Data Source**: [Zillow](https://appbrewery.github.io/Zillow-Clone/) for scraping rental property data from Zillow's clone website
 - **Google Form**: [Form Link](https://forms.gle/5xJHfDvCL5ZCwyCG7) for submitting the data
 - **Features**:
   - Scrapes property addresses, prices, and links from Zillow using BeautifulSoup
